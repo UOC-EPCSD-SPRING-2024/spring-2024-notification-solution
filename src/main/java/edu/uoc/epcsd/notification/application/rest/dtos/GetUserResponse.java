@@ -8,14 +8,15 @@ import lombok.*;
 @EqualsAndHashCode
 @Builder
 @AllArgsConstructor
-public final class GetUserResponse {
+@NoArgsConstructor
+public class GetUserResponse {
 
-    private final Long id;
+    private Long id;
 
-    private final String fullName;
+    private String fullName;
 
-    private final String email;
+    private String email;
 
-    private final String phoneNumber;
+    private String phoneNumber;
 
 }

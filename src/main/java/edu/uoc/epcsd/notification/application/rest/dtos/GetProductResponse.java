@@ -9,20 +9,21 @@ import lombok.*;
 @EqualsAndHashCode
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 public final class GetProductResponse {
 
-    private final Long id;
+    private Long id;
 
-    private final String name;
+    private String name;
 
-    private final String description;
+    private String description;
 
-    private final Double dailyPrice;
+    private Double dailyPrice;
 
-    private final String brand;
+    private String brand;
 
-    private final String model;
+    private String model;
 
-    private final Long categoryId;
+    private Long categoryId;
 
 }
