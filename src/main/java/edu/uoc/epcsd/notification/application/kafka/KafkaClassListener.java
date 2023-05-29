@@ -1,7 +1,6 @@
 package edu.uoc.epcsd.notification.application.kafka;
 
 import edu.uoc.epcsd.notification.domain.service.NotificationService;
-import edu.uoc.epcsd.notification.domain.service.NotificationServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
